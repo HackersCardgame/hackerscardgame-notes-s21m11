@@ -1,0 +1,384 @@
+Info [Main]: SoundSourceProxy - Loading SoundSource plugins "C:/Program Files (x86)/Mixxx/plugins/soundsource"
+Info [Main]: SoundSourcePluginLibrary - Dynamically loaded plugin library "C:/Program Files (x86)/Mixxx/plugins/soundsource/soundsourcemediafoundation.dll"
+Warning [Main]: SoundSourcePluginLibrary - Failed to dynamically load plugin library "C:/Program Files (x86)/Mixxx/plugins/soundsource/soundsourcemediafoundation.exp" : "Cannot load library C:\\Program Files (x86)\\Mixxx\\plugins\\soundsource\\soundsourcemediafoundation.exp: Unknown error 0x000000c1."
+Warning [Main]: SoundSourceProxy - Failed to load SoundSource plugin "C:/Program Files (x86)/Mixxx/plugins/soundsource/soundsourcemediafoundation.exp"
+Warning [Main]: SoundSourcePluginLibrary - Failed to dynamically load plugin library "C:/Program Files (x86)/Mixxx/plugins/soundsource/soundsourcemediafoundation.lib" : "Cannot load library C:\\Program Files (x86)\\Mixxx\\plugins\\soundsource\\soundsourcemediafoundation.lib: Unknown error 0x000000c1."
+Warning [Main]: SoundSourceProxy - Failed to load SoundSource plugin "C:/Program Files (x86)/Mixxx/plugins/soundsource/soundsourcemediafoundation.lib"
+Warning [Main]: SoundSourcePluginLibrary - Failed to dynamically load plugin library "C:/Program Files (x86)/Mixxx/plugins/soundsource/soundsourcemediafoundation.pdb" : "Cannot load library C:\\Program Files (x86)\\Mixxx\\plugins\\soundsource\\soundsourcemediafoundation.pdb: Unknown error 0x000000c1."
+Warning [Main]: SoundSourceProxy - Failed to load SoundSource plugin "C:/Program Files (x86)/Mixxx/plugins/soundsource/soundsourcemediafoundation.pdb"
+Debug [Main]: "Mixxx" "2.2.2" "(git 2.2 r6722; built on: Aug 12 2019 @ 18:06:51; flags: asan=0 asmlib=0 battery=1 buildtime=1 bulk=0 color=0 coreaudio=0 faad=0 ffmpeg=0 hid=1 hss1394=1 ipod=0 lilv=0 localecompare=1 macappstore=0 mad=1 mediafoundation=1 modplug=0 opengles=0 optimize=portable opus=1 perftools=0 perftools_profiler=0 profiling=0 qt_sqlite_plugin=0 qtkeychain=0 shoutcast=1 test=1 tsan=0 ubsan=0 vamp=1 verbose=0 vinylcontrol=1 wv=0)" is starting...
+Debug [Main]: Compile time library versions:
+Debug [Main]: Qt: 5.11.1
+Debug [Main]: libshout: 2.4.1
+Debug [Main]: PortAudio: 1246720 PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4
+Debug [Main]: RubberBand: 1.8.1
+Debug [Main]: SoundTouch: 2.0.0
+Debug [Main]: TagLib: 1.11.1
+Debug [Main]: ChromaPrint: 1.3.1
+Debug [Main]: Vorbis: Xiph.Org libVorbis 1.3.5
+Debug [Main]: libsndfile: libsndfile-1.0.26
+Debug [Main]: FLAC: 1.3.1
+Debug [Main]: QDesktopServices::storageLocation(HomeLocation): "C:/Users/marc"
+Debug [Main]: QDesktopServices::storageLocation(DataLocation): "C:/Users/marc/AppData/Local/Mixxx"
+Debug [Main]: QCoreApplication::applicationDirPath() "C:/Program Files (x86)/Mixxx"
+Debug [Main]: Loading resources from  "C:/Program Files (x86)/Mixxx/"
+Debug [Main]: ConfigObject: Could not read "C:/Users/marc/mixxx.cfg"
+Debug [Main]: Config version is empty, trying to read pre-1.12.0 config
+Debug [Main]: No version number in configuration file. Setting to 2.2.2
+Info [Main]: BroadcastSettings - Profiles folder doesn't exist. Creating it.
+Info [Main]: BroadcastSettings - No profiles found. Creating default profile.
+Debug [Main]: Loading resources from  "C:/Program Files (x86)/Mixxx/"
+Debug [Main]: Loading resources from  "C:/Program Files (x86)/Mixxx/"
+Debug [Main]: Loading translations for locale "de_CH" from translations folder "C:/Program Files (x86)/Mixxx/translations/" : success
+Debug [Main]: "Error: Unable to import console: no such extension"
+Debug [Main]: "Error: Unable to import svg: no such extension"
+Debug [Main]: Loading resources from  "C:/Program Files (x86)/Mixxx/"
+Debug [Main]: ConfigObject: Could not read "C:/Users/marc/sandbox.cfg"
+Debug [Main]: Compressor attack per frame:  0.000408163 decay per frame:  4.08163e-05
+Debug [Main]: EngineNetworkStream - addWorker: worker added
+Debug [Main]: EngineNetworkStream - worker slots used: "1 out of 16"
+Debug [Main]: BroadcastManager - addConnection: created connection for profile "Connection 1"
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: WARNING: AudioInput already registered!
+Info [Main]: DbConnection - Available drivers for database connections: ("QSQLITE")
+Info [Main]: DbConnectionPool - Cloned thread-local database connection "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="C:/Users/marc/mixxxdb.sqlite", host="localhost", port=-1, user="mixxx", open=true)
+Info [Main]: MixxxMainWindow - Connecting to database
+Info [Main]: MixxxMainWindow - Initializing or upgrading database schema
+Info [Main]: SettingsDAO - Failed to prepare query: Returning default value "" for "mixxx.schema.version"
+Info [Main]: SchemaManager - Upgrading database schema from version 0 to version 28
+Info [Main]: SchemaManager - Upgrading to database schema to version 1 : "The base schema for the Mixxx SQLITE database."
+Info [Main]: SchemaManager - Upgraded database schema to version 1
+Info [Main]: SchemaManager - Upgrading to database schema to version 2 : "Add a header_parsed integer column to the library to indicate when a\r\n      track's tags have been parsed."
+Info [Main]: SchemaManager - Upgraded database schema to version 2
+Info [Main]: SchemaManager - Upgrading to database schema to version 3 : "Change the location column to be a an integer. Change comment to be\r\n      varchar(256) and album/artist/title to be varchar(64)."
+Info [Main]: SchemaManager - Upgraded database schema to version 3
+Info [Main]: SchemaManager - Upgrading to database schema to version 4 : "Add file type column."
+Info [Main]: SchemaManager - Upgraded database schema to version 4
+Info [Main]: SchemaManager - Upgrading to database schema to version 5 : "Add needs_verification column to library hashes table."
+Info [Main]: SchemaManager - Upgraded database schema to version 5
+Info [Main]: SchemaManager - Upgrading to database schema to version 6 : "Added a ReplayGain Column."
+Info [Main]: SchemaManager - Upgraded database schema to version 6
+Info [Main]: SchemaManager - Upgrading to database schema to version 7 : "Add timesplayed and rating column. Reset header state."
+Info [Main]: SchemaManager - Upgraded database schema to version 7
+Info [Main]: SchemaManager - Upgrading to database schema to version 8 : "Added iTunes tables"
+Info [Main]: SchemaManager - Upgraded database schema to version 8
+Info [Main]: SchemaManager - Upgrading to database schema to version 9 : "Tables for Traktor library feature"
+Info [Main]: SchemaManager - Upgraded database schema to version 9
+Info [Main]: SchemaManager - Upgrading to database schema to version 10 : "Playlist and crate locks"
+Info [Main]: SchemaManager - Upgraded database schema to version 10
+Info [Main]: SchemaManager - Upgrading to database schema to version 11 : "Tables for Rhythmbox library feature"
+Info [Main]: SchemaManager - Upgraded database schema to version 11
+Info [Main]: SchemaManager - Upgrading to database schema to version 12 : "Add beats column to library table."
+Info [Main]: SchemaManager - Upgraded database schema to version 12
+Info [Main]: SchemaManager - Upgrading to database schema to version 13 : "Add position column to Rhythmbox, iTunes, and Traktor playlist tables."
+Info [Main]: SchemaManager - Upgraded database schema to version 13
+Info [Main]: SchemaManager - Upgrading to database schema to version 14 : "Add composer column to library table."
+Info [Main]: SchemaManager - Upgraded database schema to version 14
+Info [Main]: SchemaManager - Upgrading to database schema to version 15 : "Add datetime_added to playlists tracks."
+Info [Main]: SchemaManager - Upgraded database schema to version 15
+Info [Main]: SchemaManager - Upgrading to database schema to version 16 : "Add track analysis table."
+Info [Main]: SchemaManager - Upgraded database schema to version 16
+Info [Main]: SchemaManager - Upgrading to database schema to version 17 : "Add columns for BPM lock and a sub-version string for beats."
+Info [Main]: SchemaManager - Upgraded database schema to version 17
+Info [Main]: SchemaManager - Upgrading to database schema to version 18 : "Add keys column to library table."
+Info [Main]: SchemaManager - Upgraded database schema to version 18
+Info [Main]: SchemaManager - Upgrading to database schema to version 19 : "Add key_id column to library table for caching the global key. Default to\r\n      INVALID."
+Info [Main]: SchemaManager - Upgraded database schema to version 19
+Info [Main]: SchemaManager - Upgrading to database schema to version 20 : "Crates in AutoDJ queue (for automated random-track selection)."
+Info [Main]: SchemaManager - Upgraded database schema to version 20
+Info [Main]: SchemaManager - Upgrading to database schema to version 21 : "Add grouping and album_artist column to library table."
+Info [Main]: SchemaManager - Upgraded database schema to version 21
+Info [Main]: SchemaManager - Upgrading to database schema to version 22 : "Add grouping and album_artist column to itunes_library table."
+Info [Main]: SchemaManager - Upgraded database schema to version 22
+Info [Main]: SchemaManager - Upgrading to database schema to version 23 : "Add directories table"
+Info [Main]: SchemaManager - Upgraded database schema to version 23
+Info [Main]: SchemaManager - Upgrading to database schema to version 24 : "Add cover art support. Default source is UNKNOWN and default type is NONE."
+Info [Main]: SchemaManager - Upgraded database schema to version 24
+Info [Main]: SchemaManager - Upgrading to database schema to version 25 : "Add full replay gain support including peak amplitude. The default\r\n      value for the peak amplitude is \"undefined\", represented by any\r\n      negative value. The internal constant for \"undefined\" is -1.0."
+Info [Main]: SchemaManager - Upgraded database schema to version 25
+Info [Main]: SchemaManager - Upgrading to database schema to version 26 : "Add new column \"tracktotal\" column that stores the total number of\r\n      tracks as a string. The total number of tracks will be reloaded\r\n      from the corresponding file upon first access when encountering\r\n      the default value."
+Info [Main]: SchemaManager - Upgraded database schema to version 26
+Info [Main]: SchemaManager - Upgrading to database schema to version 27 : "Add cue color support. Default color is #FF0000."
+Info [Main]: SchemaManager - Upgraded database schema to version 27
+Info [Main]: SchemaManager - Upgrading to database schema to version 28 : "Reset replay gain info for all FLAC files after fixing a decoding bug in version 2.1.0."
+Info [Main]: SchemaManager - Upgraded database schema to version 28
+Debug [Main]: LibraryScanner - Starting thread
+Info [Main]: Library - Connecting database
+Debug [LibraryScanner 1]: LibraryScanner - Entering thread
+Info [LibraryScanner 1]: DbConnectionPool - Cloned thread-local database connection "MIXXX-2" QSqlDatabase(driver="QSQLITE", database="C:/Users/marc/mixxxdb.sqlite", host="localhost", port=-1, user="mixxx", open=true)
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: CrateFeature::rebuildChildModel() -1
+Debug [Main]: Default quick links: ("C:/Users/marc/Music/", "C:/Users/marc/Downloads/", "C:/Users/marc/Desktop/", "C:/Users/marc/Documents/")
+Debug [Main]: Appending Quick Link:  "Music" --- "C:/Users/marc/Music/"
+Debug [Main]: Appending Quick Link:  "Downloads" --- "C:/Users/marc/Downloads/"
+Debug [Main]: Appending Quick Link:  "Desktop" --- "C:/Users/marc/Desktop/"
+Debug [Main]: Appending Quick Link:  "Documents" --- "C:/Users/marc/Documents/"
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [LibraryScanner 1]: LibraryScanner - Event loop starting
+Debug [Main]: Traktor Library Location=[ "C:/Users/marc/collection.nml" ]
+Debug [Main]: Checking for access to user's library directories:
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Entering thread
+Info [AnalyzerQueue 1]: DbConnectionPool - Cloned thread-local database connection "MIXXX-3" QSqlDatabase(driver="QSQLITE", database="C:/Users/marc/mixxxdb.sqlite", host="localhost", port=-1, user="mixxx", open=true)
+Debug [Main]: Creating ControllerManager
+Debug [Main]: Creating user controller presets directory: "C:/Users/marc/controllers/"
+Debug [Controller]: ControllerManager:slotInitialize
+Debug [Controller]: Extension .midi.xml total 110 presets
+Debug [Controller]: Extension .hid.xml total 10 presets
+Debug [Controller]: Extension .bulk.xml total 1 presets
+Debug [Main]: Set root GL Context widget valid: QGLWidget(0xf54dc58) true
+Debug [Main]: Created root GL Context valid: 0x5137320 true
+Debug [Main]: Root GL Context format:
+Debug [Main]: Double Buffering: true
+Debug [Main]: Swap interval: 1
+Debug [Main]: Depth buffer: true
+Debug [Main]: Direct rendering: true
+Debug [Main]: Has overlay: false
+Debug [Main]: RGBA: true
+Debug [Main]: Sample buffers: false
+Debug [Main]: Samples: -1
+Debug [Main]: Stencil buffers: true
+Debug [Main]: Stereo: false
+Debug [Main]: "openGLVersionFlags 0xff07f" "4.6.0 NVIDIA 456.71" "NVIDIA Corporation" "GeForce GTX 1060 6GB/PCIe/SSE2"
+Debug [Main]: screensaver inhibited
+Debug [Main]: ControllerManager::getControllerList
+Info [Main]: VampPluginAdapter - Current VAMP_PATH is: ""
+Info [Main]: VampPluginAdapter - Setting VAMP_PATH to: "C:\\Program Files (x86)\\Mixxx\\plugins\\vamp"
+Debug [Main]: VampPluginLoader::listPlugins() returned 4 plugins
+Debug [Main]: Plugin output displayname: "mixxxbpmdetection:0" "SoundTouch BPM Detector (Legacy)"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:0" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:1" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:2" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:3" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-keydetector:0" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:1" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:2" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:3" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:0" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:1" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:2" "Tempo and Beat Tracker"
+Debug [Main]: VampPluginLoader::listPlugins() returned 4 plugins
+Debug [Main]: Plugin output displayname: "mixxxbpmdetection:0" "SoundTouch BPM Detector (Legacy)"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:0" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:1" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:2" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:3" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-keydetector:0" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:1" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:2" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:3" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:0" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:1" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:2" "Tempo and Beat Tracker"
+Debug [Main]: DlgPrefKey::loadSettings
+Debug [Main]: Key plugin ID: ""
+Debug [Main]: LegacySkinParser loading skin: "C:/Program Files (x86)/Mixxx/skins/Deere"
+Debug [Main]: "Error: Unable to import console: no such extension"
+Debug [Main]: "Error: Unable to import svg: no such extension"
+Debug [Main]: 1 "Voicemeeter AUX Virtual ASIO"
+Debug [Main]: 2 "54, Voicemeeter AUX Virtual ASIO"
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: Skin is a >=1.12.0 style skin.
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 0
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 1
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 2
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 3
+Debug [Main]: WSearchLineEdit - Background color: QColor(ARGB 1, 1, 1, 1)
+Debug [Main]: WSearchLineEdit - Foreground color: QColor(ARGB 1, 0, 0, 0)
+Debug [Main]: WTrackTableView::loadTrackModel() HiddenTableModel(0x2e0c48d0)
+Debug [Main]: WTrackTableView::loadTrackModel() MissingTableModel(0x2e0c3308)
+Debug [Main]: WTrackTableView::loadTrackModel() PlaylistTableModel(0xb662fd0)
+Debug [Main]: Recordings folder set to "C:/Program Files (x86)/Mixxx"
+Debug [Main]: WTrackTableView::loadTrackModel() QSortFilterProxyModel(0x1e7862a0)
+Debug [BrowseThread]: Append last  0
+Debug [Main]: WTrackTableView::loadTrackModel() AnalysisLibraryTableModel(0x2e0c3970)
+Debug [Main]: AnalysisLibraryTableModel(0x2e0c3970) select() took 0 ms 0
+Debug [Main]: AnalysisLibraryTableModel(0x2e0c3970) select() took 0 ms 0
+Debug [Main]: AnalysisLibraryTableModel(0x2e0c3970) select() took 0 ms 0
+Debug [Main]: DlgAnalysis(0x2734e510, name="DlgAnalysis") analysisActive false
+Warning [Main]: src\skin\legacyskinparser.cpp:2110 SKIN ERROR at skin:tool_bar.xml:344 <Connection>: LegacySkinParser::setupConnections(): EmitOnPressAndRelease must not set false
+Warning [Main]: src\skin\legacyskinparser.cpp:2110 SKIN ERROR at skin:skin_settings.xml:40 <Connection>: LegacySkinParser::setupConnections(): EmitOnPressAndRelease must not set false
+Debug [Main]: MixxxLibraryFeature::activate()
+Debug [Main]: WTrackTableView::loadTrackModel() LibraryTableModel(0xf1d5de0)
+Debug [Main]: LibraryTableModel(0xf1d5de0) select() took 0 ms 0
+Debug [Main]: LibraryTableModel(0xf1d5de0) select() took 0 ms 0
+Debug [Main]: trying to restore position
+Debug [Controller]: ControllerManager: Setting up devices
+Debug [Controller]: Scanning PortMIDI devices:
+Debug [LibraryScanner 1]: LibraryScanner - slotStartScan()
+Debug [Controller]:  Found output device # 0 Microsoft MIDI Mapper
+Debug [Controller]:  Found output device # 6 Microsoft GS Wavetable Synth
+Debug [Controller]:  Found output device # 7 APC MINI
+Debug [Controller]:  Found output device # 8 X-TOUCH MINI
+Debug [Controller]:  Found output device # 9 Arturia BeatStep
+Debug [Controller]:  Found output device # 10 APC MINI
+Debug [Controller]:  Found output device # 11 APC Key 25
+Debug [Controller]:  Found input device # 1 APC MINI
+Warning [Main]: Could not read sampler bank file "C:/Users/marc/samplers.xml"
+Debug [Main]: SoundManager::setupDevices()
+Debug [Main]: SoundDevicePortAudio::open() "54, Voicemeeter AUX Virtual ASIO"
+Debug [Controller]:     Linking to output device # 7 "APC MINI"
+Debug [Main]: framesPerBuffer: 1024
+Debug [Main]: Requested sample rate:  44100 Hz, latency: 23.22 ms
+Debug [Main]: Output channels: 2 | Input channels: 0
+Debug [Main]: Opening stream with id 54
+Debug [Controller]:  Found input device # 2 X-TOUCH MINI
+Debug [Controller]:     Linking to output device # 8 "X-TOUCH MINI"
+Debug [Controller]:  Found input device # 3 Arturia BeatStep
+Debug [Controller]:     Linking to output device # 9 "Arturia BeatStep"
+Debug [Controller]:  Found input device # 4 APC MINI
+Debug [Controller]:     Linking to output device # 10 "APC MINI"
+Debug [Controller]:  Found input device # 5 APC Key 25
+Debug [Controller]:     Linking to output device # 11 "APC Key 25"
+Debug [Controller]: Scanning HSS1394 devices:
+Debug [Controller]:    Nodes detected: 0
+Debug [Controller]: Scanning HID devices:
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4625" S/N "" "Interface 1"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4625" S/N "" "Interface 2"
+Debug [Controller]: Found "RODE Microphones" "RODE NT-USB" "r256" S/N "" "Interface 3"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4625" S/N "" "Interface 1"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4625" S/N "" "Interface 2"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4617" S/N "" "Interface 1"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4617" S/N "" "Interface 1"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4617" S/N "" "Interface 2"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4617" S/N "" "Interface 1"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4617" S/N "" "Interface 1"
+Debug [Controller]: Found "Logitech" "USB Optical Mouse" "r29184" S/N "" "Usage Page 1 Usage 2"
+Debug [Controller]: Found "" "USB PnP Audio Device" "r256" S/N "" "Interface 3"
+Debug [Controller]: Found "Wacom Co.,Ltd." "Intuos BT M" "r273" S/N "8CH00U2016855" "Usage Page 65293 Usage 1"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4625" S/N "" "Interface 0"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4617" S/N "" "Interface 0"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4617" S/N "" "Interface 2"
+Debug [Controller]: Found "RODE Microphones" "RODE NT-USB" "r256" S/N "" "Interface 3"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4625" S/N "" "Interface 1"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4617" S/N "" "Interface 2"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4625" S/N "" "Interface 1"
+Debug [Controller]: Found "Logitech" "USB Receiver" "r4625" S/N "" "Interface 2"
+Debug [Controller]: ControllerManager::getControllerList
+Debug [Controller]: Searching for controller preset "APC_MINI.midi.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "APC_MINI.midi.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "X-TOUCH_MINI.midi.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "X-TOUCH_MINI.midi.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "Arturia_BeatStep.midi.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "Arturia_BeatStep.midi.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "APC_MINI--2.midi.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "APC_MINI--2.midi.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "APC_Key_25.midi.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "APC_Key_25.midi.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__1.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__1.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__2.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__2.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "RODE_NT-USB__3.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "RODE_NT-USB__3.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__1--2.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__1--2.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__2--2.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__2--2.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__1--3.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__1--3.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__1--4.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__1--4.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__2--3.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__2--3.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__1--5.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__1--5.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__1--6.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__1--6.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Optical_Mouse_.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Optical_Mouse_.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_PnP_Audio_Device__3.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_PnP_Audio_Device__3.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "Intuos_BT_M_6855.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "Intuos_BT_M_6855.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__0.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__0.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__0--2.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__0--2.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__2--4.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__2--4.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "RODE_NT-USB__3--2.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "RODE_NT-USB__3--2.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__1--7.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__1--7.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__2--5.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__2--5.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__1--8.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__1--8.hid.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "USB_Receiver__2--6.hid.xml" in paths: "C:/Users/marc/controllers/,C:/Program Files (x86)/Mixxx/controllers/"
+Debug [Controller]: Could not find "USB_Receiver__2--6.hid.xml" in any preset path.
+Debug [Controller]: Controller polling stopped.
+Warning [Main]: Error opening stream: Invalid sample rate
+Debug [Main]: ControllerManager::getControllerList
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x31fb8460)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x31fb8370)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x31fb8490)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x31fb8390)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x3206fd30)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x32cd1ae0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x32cd1b80)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x32cd1b90)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x32cd1a30)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x32cd1b50)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x32ced718)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x33284fa8)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x33284f78)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x33285118)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x33284f58)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x3387e4c8)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x33d2d390)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x33d2d4c0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x33d2d4e0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x33d2d3c0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x33d2d620)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x33ee97d8)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x34bfdca0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x34bfdd00)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x34bfddd0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x34bfde50)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x347da320)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x356ebfc8)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x356ec108)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x356ec078)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x356ec088)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x356ec0e8)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x35793d50)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x36087818)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x36087918)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x360877e8)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x36087828)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x3620d4c8)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x36708a08)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x36708a28)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x36708938)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x36708a48)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x36708ca8)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x36bff598)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x371bc038)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x371bbfb8)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x371bc068)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x371bc028)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x37ae1430)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x3853c400)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x3853c3e0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x3853c3d0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x3853c3f0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x3853c460)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x3854d3b0)
