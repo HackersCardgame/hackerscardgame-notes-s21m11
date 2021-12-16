@@ -1,6 +1,6 @@
 wsl.exe --install -d Ubuntu
 
-#im Gui "Windows-Features" machen:
+ECHO im GUI "Windows-Features" machen:
 
 #dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
