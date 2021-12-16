@@ -20,3 +20,19 @@ corona <-> finfisher: pivot: unsichtbar aber da
 
 
 das ganze corona thema hat die angst vor bioterrorismus bei mir geweckt, also wenn man jemanden vorsätzlich mit corona infiziert, z.B. beim verpacken eines briefes extra dran saut dann wäre das ja eignetlich bioterrorismus
+
+
+marc@DESKTOP-SKIM7C3 MINGW64 /p/hcg/hackerscardgame-notes3 (master)
+$ git remote show origin
+warning: redirecting to https://gitlab.com/HackersCardgame/hackerscardgame-notes3.git/
+* remote origin
+  Fetch URL: https://gitlab.com/HackersCardgame/hackerscardgame-notes3
+  Push  URL: https://gitlab.com/HackersCardgame/hackerscardgame-notes3
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+
