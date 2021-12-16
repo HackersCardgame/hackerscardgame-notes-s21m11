@@ -1,0 +1,16 @@
+﻿Anweisungen zur Offline-Autorisierung
+--------------------------------------
+
+Für die Off-Line-Autorisierung benötigen Sie:
+
+- Ein externes Speichermedium (z.B. USB-Stick)
+
+- Einen Rechner mit Internetverbindung
+
+- Ihre Ableton Seriennummer (wenn Sie Live im Handel gekauft haben)
+
+- Ihren Hardware-Code: 2104-9DC8-A974-AEE7-2E69-BE0D
+
+Gehen Sie bitte mit dem Internetrechner auf www.ableton.com/authorize.
+Dort finden Sie weitere Informationen.
+
