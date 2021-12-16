@@ -36,3 +36,17 @@ warning: redirecting to https://gitlab.com/HackersCardgame/hackerscardgame-notes
   Local ref configured for 'git push':
     master pushes to master (up to date)
 
+
+marc@DESKTOP-SKIM7C3 MINGW64 /e/Users/marc/TODOs (main)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/HackersCardgame/TODOs
+  Push  URL: git@github.com:HackersCardgame/TODOs.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+
